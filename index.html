@@ -1,0 +1,381 @@
+<style>
+body{
+background-color:#000000;
+background-image: url('https://media.giphy.com/media/WKLTa34RJnp2E/giphy.gif') !important; 
+background-repeat:repeat !important; 
+background-position:center !important; 
+}
+
+::-webkit-scrollbar {width: 4px; height: 4px;}
+::-webkit-scrollbar-track {background: none;}
+::-webkit-scrollbar-thumb {background: #313163;}
+
+#ribbon1 {
+position:absolute;
+background-color:#000000;
+top:0%;
+left:10%;
+width:10%;
+height:100%;
+}
+
+#ribbon2 {
+position:absolute;
+background-color:#000000;
+top:40%;
+left:0%;
+width:100%;
+height:20%;
+}
+
+#line1 {
+position:absolute;
+background-color:#313163;
+top:50%;
+left:0%;
+width:100%;
+height:1%;
+}
+
+#ribbon3 {
+position:absolute;
+background-color:#000000;
+top:0%;
+left:80%;
+width:10%;
+height:100%;
+}
+
+#picbox1 {
+position:absolute;
+border:1px solid #cccccc;
+top:3%;
+left:11%;
+width:8%;
+height:16%;
+background-image: url('https://i.imgur.com/olqvdIx.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#picbox1:hover {
+background-image: url('https://i.imgur.com/Qe7FRin.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+-webkit-box-shadow: 0px 0px 27px 1px rgba(181,214,255,1);
+-moz-box-shadow: 0px 0px 27px 1px rgba(181,214,255,1);
+box-shadow: 0px 0px 27px 1px rgba(181,214,255,1);
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#bigpic {
+position:absolute;
+border:1px solid #cccccc;
+background-color:#000000;
+top:23%;
+left:5%;
+width:20%;
+height:54%;
+background-image: url('https://i.imgur.com/hBXbfx7.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#bigpic:hover {
+background-image: url('https://i.imgur.com/We4Bljt.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+-webkit-box-shadow: 0px 0px 27px 1px rgba(181,214,255,1);
+-moz-box-shadow: 0px 0px 27px 1px rgba(181,214,255,1);
+box-shadow: 0px 0px 27px 1px rgba(181,214,255,1);
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#picbox2 {
+position:absolute;
+border:1px solid #cccccc;
+top:81%;
+left:11%;
+width:8%;
+height:16%;
+background-image: url('https://i.imgur.com/ETe1zWs.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#picbox2:hover {
+background-image: url('https://i.imgur.com/Akfv6eN.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+-webkit-box-shadow: 0px 0px 27px 1px rgba(181,214,255,1);
+-moz-box-shadow: 0px 0px 27px 1px rgba(181,214,255,1);
+box-shadow: 0px 0px 27px 1px rgba(181,214,255,1);
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#content {
+position:absolute;
+border:1px solid #cccccc;
+background-color:#000000;
+color:#ffffff;
+font-family:Oswald;
+font-size:100%;
+padding:1%;
+overflow:auto;
+top:23%;
+left:30%;
+width:45%;
+height:49.8%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#content:hover {
+-webkit-box-shadow: 0px 0px 27px 1px rgba(181,214,255,1);
+-moz-box-shadow: 0px 0px 27px 1px rgba(181,214,255,1);
+box-shadow: 0px 0px 27px 1px rgba(181,214,255,1);
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox {
+position:absolute;
+top:25%;
+left:81%;
+width:8%;
+height:50%;
+}
+
+.tabs {
+display:block;
+line-height:150%;
+width:100%;
+height:7%;
+margin-top:23%;
+text-align:center;
+color:#ffffff;
+font-family:Lobster;
+font-size:100%;
+letter-spacing:3px;
+background-color:#000000;
+border:1px solid #cccccc;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.tabs:hover {
+background-color:#ffffff;
+border:1px solid #666666;
+color:#313163;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+-webkit-box-shadow: 0px 0px 27px 1px rgba(181,214,255,1);
+-moz-box-shadow: 0px 0px 27px 1px rgba(181,214,255,1);
+box-shadow: 0px 0px 27px 1px rgba(181,214,255,1);
+}
+
+#tab1,#tab2,#tab3,#tab4,#tab5,#tab6,#tab7,#tab8,#tab9,#tab10,#tab11,#tab12 {
+display: none;
+}
+
+a {
+color:#666666;
+}
+
+i {
+color:#313163;
+font-size:90%;
+}
+
+h1 {
+color: #313163;
+border-bottom: 1px dashed #666666;
+font-family: Lobster;
+letter-spacing:5px;
+text-align:right;
+font-size: 120%;
+}
+
+b {
+font-size: 100%;
+color:#666666;
+}
+</style>
+
+<style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/symbols/sym-6/sym597.cur), progress !important;}</style>
+<link href="https://fonts.googleapis.com/css?family=Lobster|Oswald" rel="stylesheet">
+<script>function changeNavigation(id) {document.getElementById('content').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation1(id) {document.getElementById('bigpic').innerHTML=document.getElementById(id).innerHTML}</script>
+
+<div id="ribbon1">
+</div>
+<div id="ribbon3">
+</div>
+<div id="ribbon2">
+<div id="line1">
+</div>
+</div>
+<div id="picbox1">
+</div>
+<div id="bigpic">
+</div>
+<div id="picbox2">
+</div>
+
+<div id="content">
+<h1>Basic Information</h1>
+<b>Alias:</b> Dawn<br>
+<b>Name:</b> N/A<br>
+<b>Age:</b> Early-Mid Twenties<br>
+<b>Birthdate:</b> First of Creator's Rise<br>
+<b>Gender:</b> Androgynous Male (Femboy)<br>
+<b>Sexuality:</b> Bisexual<br>
+<b>Species:</b> Arcane-Enhanced Human<br>
+<b>Race:</b> Kre'Nathian<br>
+<b>Tree:</b> Light Radiance<br>
+<b>Rank:</b> True Practitioner<br>
+<b>Occupation:</b> Agent for the Crown<br>
+<b>Height:</b> 5'7"<br>
+<b>Weight:</b> 120 lbs.
+</div>
+
+<div id="tabbox">
+<span class="tabs" onClick="changeNavigation ('tab1');changeNavigation1 ('tab2')">Details</span>
+<span class="tabs" onClick="changeNavigation ('tab3');changeNavigation1 ('tab4')">History</span>
+<span class="tabs" onClick="changeNavigation ('tab5');changeNavigation1 ('tab6')">Lore</span>
+<span class="tabs" onClick="changeNavigation ('tab7');changeNavigation1 ('tab8')">Inventory</span>
+<span class="tabs" onClick="changeNavigation ('tab9');changeNavigation1 ('tab10')">Racials</span>
+<span class="tabs" onClick="changeNavigation ('tab11');changeNavigation1 ('tab12')">Radiance</span>
+</div>
+
+<div id="tab1">
+<h1>Appearance</h1>
+In addition to it being extremely hard to tell Dawn's gender--at least while he is clothed--it is also easy to mistake him as being very weak and physically inept. His physique is very thin and his weight incredibly light for a humanoid his age, slight feminine curves only adding to the confusion, as well as his slender arms and long smooth legs. He is built for flexibility, capable of bending and flipping about like a noodle, and is plenty energetic to make up for his severe lack in body mass. Dawn's face is rounded and soft with long fluttering lashes surrounding wide doe-eyes, a cute button nose, a pair of full lips, and hair long enough to brush his chin. While his skin is an unnatural pale white in color, his eyes and hair are even more strange. They seem to reflect the light much like prisms, casting small rainbows of color in little auras all around his head and making his irises seem more like opals.
+<br><br>
+<h1>Attire</h1>
+Despite most of his native culture being flashy and over the top with decorative things like clothing, when it comes to dressing his body he has a preference for simpler things. Dawn most often wears a suit-like jumpsuit that is tailored to fit his special body perfectly. The outermost layer is one piece, and acts as a leotard, covering his lower body in slick black shorts and stretching over his upper body to create a short-sleeved vest of sorts, the sleeves slightly puffed of course. Underneath he wears a thin white button-up blouse and a black tie around the neck. Occasionally a belt will be found looped around his waist as well.
+<br><br>
+<h1>Personality</h1>
+Generally a rather sweet and softspoken individual, he only raises his voice or hand in anger if he feels it necessary or unavoidable. Too reserved to be considered happy-go-lucky, and too openly filled with life and joy to be considered proper or conservative, he sits at a balance between the extremes. Dawn is also very hard headed, his stubbornness sometimes knowing no bounds is often found to be a double edged sword which can get him into deep trouble just as often as it leads him and his life partner to victory and success.
+</div>
+<div id="tab2">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/7IbuT5q.png"/>
+</div>
+
+<div id="tab3">
+<h1>The Birth of "Dawn"</h1>
+-Information <b>Locked</b>-
+<br>
+Check back occasionally will be available eventually after it has been unlocked through story progression or general character interaction.
+</div>
+<div id="tab4">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/TWa7rqe.jpg"/>
+</div>
+
+<div id="tab5">
+<h1>Choosing a "Partner"</h1>
+-Information <b>Locked</b>-
+<br>
+Check back occasionally will be available eventually after it has been unlocked through story progression or general character interaction.
+<br><br>
+<h1>"Rank" in Society</h1>
+-Information <b>Locked</b>-
+<br>
+Check back occasionally will be available eventually after it has been unlocked through story progression or general character interaction.
+</div>
+<div id="tab6">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/DuYMAQg.png"/>
+</div>
+
+<div id="tab7">
+<h1>Armor</h1>
+<b>Black Suit</b><br>
+Naturally an agent in the city of Enchantment would have some enhanced gear of his own, and in this case his main piece of equipment is in fact his black leotard suit. It possesses the simple ability to severely dim his passive light output when he needs it to, allowing him to actually blend into the shadows and appear almost base human again. This imbued ability can be activated and deactivated at will, but will remain accessible so long as a piece of the suit is still pressed against his frame (In other words, ripping the fabric won't break the Enchantment, it'd need to be thoroughly destroyed or deactivated/erased by an external source).
+<br><br>
+<h1>Weapons</h1>
+<b>Crystal Rapier</b><br>
+<img align="right" style="width:20%;" src="https://i.imgur.com/C3SVXQK.png"/>
+Made entirely out of a transluscent white Titanium grade crystal, this rapier once acted as Dawn's High Mage Medium. After his ascension to True Practitioner, it was stripped of its Medium based abilities, but was imbued with a minor Enchantment that allows it to keep some magical quality. The Crystal Rapier keeps its old effectiveness as a magical tool by forming an extension of its blade in a flexible pure energy form that is capable of doing burn damage in addition to cutting damage, allowing it to act like a whip-sword. This extension can only stretch up to thirty feet maximum, and is capable of being grown and retracted at will anywhere within this set length. The energy whip extension can only be accessed in short bursts, existing as long as the actual blade is being swiped through the air before being forced to retract and/or dissipate. Recasting is easy enough with another swing, or it can be kept from extending at all if the wielder so chooses.
+</div>
+<div id="tab8">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/FAEVtDg.png"/>
+</div>
+
+<div id="tab9">
+<h1>Arcane-Enhanced Human</h1>
+Dawn's human body has become so saturated with mana and Photokinetic magic that he has been triggered into a state of sudden evolution, giving his body the capacity to adapt to his magic and even enhancing some of his natural talents.
+<br><br>
+<b>Enhanced Dexterity</b><br>
+Above all else, his sense of balance and general dexterity have been naturally enhanced triple that of the average human's capacity. (x3)
+<br><br>
+<b>Enhanced Flexibility</b><br>
+While still remaining within the confines of what could ever be possible for a humanoid body, his overall flexibility has enhanced to high professional levels as though he underwent many years of extreme training.
+<br><br>
+<b>Enhanced Endurance</b><br>
+His capacity for endurance is twice that of the average human's. (x2)
+<br><br>
+<b>Enhanced Perception</b><br>
+His mental processing speeds--and mental speeds in general--are passively three times as fast as that of the average human's. (x3)
+<br><br>
+<h1>Radiant Sentience</h1>
+His body is no longer base-organic in nature, and while he will continue to age and decompose as time goes on, his body itself will remain in the same appearance state as it was when he first underwent transformation. The following are explanations of how his new body functions and what it is capable of:
+<br><br>
+<b>Prism Carapace</b><br>
+The outer layer of Dawn's body, the part that effectively acts as his "flesh," is a slightly moldable literal prism substance that refracts and reflects light. This Cobalt grade layer allows him to control the waves of light that bounce off of it from the inside and outside to change visual effects in his appearance. While in well lit areas, his internal light energy isn't all that noticeable and his body seems to have a more theoretical glow, but when in dim lighting or areas lacking light altogether his body is a natural source, producing an easy-on-the-eyes aura of light that can provide easy vision to a specified radius around his body (the darker the area the further his passive lightsource extends, capping at thirty feet).
+<br>
+His new "flesh" can survive extended periods of time separated from his general mass and core (up to five rotations), which allows him to still control these pieces of his body telekinetically as long as they remain within twenty feet of his core (Can only control up to one limb's worth of body mass at a time this way). Should he lose pieces of his body and manage to keep them alive, he can meditate with them put in their proper places and access their organic healing traits, effectively putting himself back together and healing his own damage. This ability can only be accessed outside of battle, requires a hefty amount of time and focus/physical energy, often leaving him dangerously exhausted for a period afterward (which varies based on the extremity of damage done).
+<br>
+When using light reflecting off of or shining through his Prism Carapace in Photomancy spells, they gain a speed boost in cast times, passively allowing the usual times it takes to cast those spells to be cut in half. 
+<br><br>
+<b>Light Interior</b><br>
+Underneath the carapace, Dawn is nothing but an entity of pure light energy. This is the source of his internal light that allows him to change the colors of his carapace as well as glow passively in darkness. Parts of his interior that naturally leak to his exterior (his eyes and hair specifically) behave as they typically should but are more energy than prism, their solid layers being very thin and less durable than their typical carapace (Iron), and their colors cannot be controlled like the rest of him. Should his carapace be broken or cracked anywhere on his body, however, he can condense his exposed and leaking light energy into diamond grade hardlight, effectively closing off the leak and providing temporary replacements. He can use this method to temporarily piece his body back together when broken, using the hardlight like glue, but it costs him a continuous mana drain. When losing limbs or entire chunks of his body he is capable of morphing the hardlight into any shape or form he desires as a replacement, but the bigger and more complex/more of the hardlight he makes, the more mana it costs him to uphold its solid form and shape.
+<br>
+He has an ability with this internal energy that allows him to solidify his entire internal being into hardlight all at once, raising his internal durability to diamond and giving him a hefty increase in speed and strength for the duration of the solidification (x4 speed, x4 strength) for up to five rotations. Once the max rotation limit has been reached, a cooldown of three rotations is required before this high mana cost ability can be activated again.
+<br>
+While it is possible for him to speed up his carapace healing process (outside of battle only) by using the "gluing together with hardlight" technique, it will add a Faith-Sickness-like debuff to him in addition to physical exhaustion.
+<br>
+When using the light energy that makes up his insides in Photomancy spells, they gain a passive intensity boost for zoning or distance-stretching spells. (Spells with AoE ranges or distance limitations gain a passive increase of up to ten feet.)
+<br><br>
+<b>Dark Radiance Resistance</b><br>
+While he is most certainly not immune to Umbrakinesis or the effects of Darkness Energy, he does have a tripled resistance to the general darkness magic form (x3) and has some good buffers against the construct-eating capabilities of Darkness Energy. It often doubles the time it would normally take for equal-to-lesser ranked attacks to eat through his constructs, and is completely immune to the eating effects from Expert Mage level dark energy specifically. (Expert Mage rank attacks still do damage, just the general dissolving quality itself has no effect.)
+<br><br>
+<b>Light Radiance Weakness</b><br>
+Since his medium-like buffs can be applied to general Photokinetic spells, he is put at a disadvantage when facing against other mages who use the same magic. His Prism Carapace and Light Interior make their spells more effective against him just as much as they make his spells more effective, leaving him vulnerable to being overclocked and overpowered by others of the same tree, the danger remaining regardless of their rank.
+</div>
+<div id="tab10">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/hVBn217.jpg"/>
+</div>
+
+<div id="tab11">
+<h1>Light Radiance (Photokinesis): True Practitioner</h1>
+<p align="center"><i>"Users of Radiance must choose between the ultimate duality; to manipulate the light itself, or manifest their power through the darkness of shadows. Light Radiance, or Photokinesis is primarily concerned with creating bright and powerful energy based attacks. Although light radiance is primarily focused on energy, a Photokinetics mage who reaches the rank of expert mage may utilize hardlight, a physical representation of light mana that can create hard hitting weaponry or solid barriers of defense. The Radiance trees can be influenced in a number of ways to provide a boon or nerf to its magic, such as bright days increasing the power of Photokinetics, and Dark nights increasing the power of Umbrakinetics. It is said that evil intent bolsters the strength of an Umbrakinetic mage, and pure devotion does the same for Photokinetics, but it has yet to be proved. Perhaps they are just common tools of Holy Warriors and Dark Beasts."</i></p>
+<br><br>
+</div>
+<div id="tab12">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/oEqVvuI.jpg"/>
+</div>
